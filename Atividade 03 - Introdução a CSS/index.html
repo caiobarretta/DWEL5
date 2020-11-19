@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Página Pessoal </title>
+      <meta charset="UTF-8">
+      <style>
+         *{
+            font-family: Arial, Helvetica, sans-serif;
+         }
+         
+
+         a {
+            font-size: medium;
+            margin: 0px 10px;
+            text-decoration: none;
+         }
+
+         a:hover{
+            background-color: lightgray;
+         }
+
+         .title{
+            text-align: center;
+            color: dimgray;
+         }
+
+         .image-profile{
+            display: inline-block;
+            width: 200px;
+         }
+
+         .image-profile img{
+            width: 200px;
+         }
+
+         #menu{
+            display: inline-block;
+            width: 600px;
+         }
+
+         #menu nav ul li{
+            display: inline;
+         }
+
+
+      </style>
+   </head>
+   <body>
+      <!-- Vamos iniciar o desenvolvimento de nossa página pessoal.-->
+      <h1 class="title">Página Pessoal de Caio Augusto Barretta</h1>
+      <div class="profile">
+
+         <!--A página também deve conter uma foto sua.-->
+         <div class="image-profile">
+            <img src="img/perfil.jpg" alt="Minha Imagem de Perfil">
+         </div>
+
+         <!--No topo da sua página crie um menu para todas as sessões. Utilize a tag nav.-->
+         <!--Pesquise como colocar o menu na mesma linha.-->
+         <div id="menu">         
+            <nav>
+               <ul>
+                  <li><a href="#DadosPessoais">Dados pessoais</a></li>
+                  <li><a href="#DadosPorfissionais" >Dados profissionais</a></li>
+                  <li><a href="#Escolaridade">Escolaridade</a></li>
+               </ul>
+            </nav>
+         </div>
+      
+      </div>
+      <br><br>
+      <!--
+         Nossa página pessoal deverá conter 3 seções
+         Utilize a tag <hr> para dividir as seções.
+          • Dados pessoais
+          • Dados profissionais
+          • Escolaridade -->
+      <hr>
+      <h2 id="DadosPessoais">Dados pessoais</h2>
+      <p>
+         <p>Indaiatuba, São Paulo, Brasil.</p>
+         <p>Analista Desenvolvedor .NET Full Stack Pleno.</p>
+         
+      </p>
+
+      <h2 id="Contato"></h2>
+      <section>
+         <p>
+            E-mail:<a href="mailto:caio.barretta@aluno.ifsp.edu.br">caio.barretta@aluno.ifsp.edu.br</a>
+            <br>
+            <a href="https://www.linkedin.com/in/caio-augusto-barretta/">Linkedin</a>
+            <br>
+            <a href="https://www.facebook.com/caioaugusto.barretta.9">Facebook</a>
+            <br>
+            <a href="https://twitter.com/caio_barretta">Twitter</a>
+            <br>
+            <a href="https://www.instagram.com/barrettacaioaugusto/">Instagram</a>
+         </p>
+      </section>
+
+      <!--Dados profissionais e dados acadêmicos devem ser feitos utilizando listas em html. -->
+      <hr>
+      <h2 id="DadosPorfissionais">Dados Profissionais:</h2>
+      <p>
+         <ul>
+            <li>Analista Desenvolvedor .NET Full Stack Pleno: ONLINE APPLICATIONS</li>
+            <li>Analista Desenvolvedor .NET Júnior: Iterative</li>
+            <li>Programador júnior: Total Acesso</li>
+            <li>Programador:Compania Nacional de Sistemas</li>
+            <li>Assistente Técnico (informática), Supervisor de campo (informática): G.A.E Serviços de Estacionamento e bilhetes S.A]</li>
+            <li>Técnico em eletroeletrônica: Zetks consultoria e sistemas LTDA</li>
+         </ul>
+      </p>
+
+      <hr>
+      <h2 id="Escolaridade">Escolaridade:</h2>
+      <p>
+         <ul>
+            <li>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP</li>
+         </ul>
+      </p>
+
+      <footer>
+         <br><br>
+         <p>Direito de cópia &copy; <script>document.write(new Date().getFullYear())</script> 
+         Caio Augusto Todos os direitos Reservados</p>
+         <br><br>
+         <nav>
+            <a href="#DadosPessoais">Dados pessoais</a>
+            <a href="#DadosPorfissionais" >Dados profissionais</a>
+            <a href="#Escolaridade">Escolaridade</a>
+         </nav>
+         <br><br>
+      </footer>
+      
+      <!--Para as escolas que possuem sites coloque o link dos sites na sua página.
+         Nessa primeira atividade não se preocupe com a estética da sua página. Inclua o conteúdo de forma mais simples possível. Depois vamos estilizar a página.
+         Compacte os arquivos da sua página e anexe no Moodle.
+      -->
+   </body>
+</html>
