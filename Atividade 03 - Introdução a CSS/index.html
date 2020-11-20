@@ -6,6 +6,7 @@
       <style>
          *{
             font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
          }
          
 
@@ -13,6 +14,11 @@
             font-size: medium;
             margin: 0px 10px;
             text-decoration: none;
+            color: inherit;
+         }
+
+         a:visited, a:active {
+            color: inherit;
          }
 
          a:hover{
@@ -28,26 +34,100 @@
             display: inline-block;
             width: 200px;
          }
-
+                       
          .image-profile img{
             width: 200px;
          }
 
-         #menu{
-            display: inline-block;
-            width: 600px;
+         .profile{
+            display: flex;
          }
 
+         #menu nav ul{
+            padding-left: 0px;
+         }
+         
          #menu nav ul li{
-            display: inline;
+            display: inline-table;
          }
 
+         .about-content, .personal-data, .personal-contact, .professional, .education{
+            border: floralwhite ridge 1px;
+            background-color: rgb(255, 255, 245);
+         }
+
+         .about-content{
+            padding: 5px 0px;
+         }
+
+         .about-content h2{
+            padding: 5px 0px;
+         }
+
+         .about-content p{
+            line-height: 2;
+         }
+
+         div, h1, h2, p{
+            margin: 10px;
+         }
+         .personal{
+            display: inline-flex;
+         }
+
+         .personal-data{
+            width: 30%;
+         }
+
+         .personal-data-section-content{
+            padding: 5px 0px 5px 0px;
+         }
+         .personal-data-section-content p{
+            padding: 10px;
+         }
+
+         .personal-contact{
+            width: 70%;
+         }
+
+
+         .icon-social-media{
+            width: 32px;
+            height: 32px;
+         }
+
+         .social-media{
+            display: inline-flex;
+            width: 30%;
+         }
+
+         .social-media img{
+            display: inline-flex;
+         }
+
+         .social-media div{
+            display: inline-block;
+            margin-top: 5px;
+            color: black;
+         }
+
+         body ul li{
+            padding: 5px;
+         }
+
+         footer{
+            background-color: lightgray;
+         }
+
+         footer a:hover{
+            background-color: whitesmoke;
+         }
 
       </style>
    </head>
    <body>
       <!-- Vamos iniciar o desenvolvimento de nossa página pessoal.-->
-      <h1 class="title">Página Pessoal de Caio Augusto Barretta</h1>
+      <h1 class="title">Caio Augusto Barretta</h1>
       <div class="profile">
 
          <!--A página também deve conter uma foto sua.-->
@@ -60,12 +140,26 @@
          <div id="menu">         
             <nav>
                <ul>
-                  <li><a href="#DadosPessoais">Dados pessoais</a></li>
-                  <li><a href="#DadosPorfissionais" >Dados profissionais</a></li>
-                  <li><a href="#Escolaridade">Escolaridade</a></li>
+                  <li><a href="#personal-data-section">Dados pessoais</a></li>
+                  <li><a href="#professional-experience" >Dados profissionais</a></li>
+                  <li><a href="#education-title">Escolaridade</a></li>
                </ul>
             </nav>
+
+            <div class="about-content">
+               <h2>Sobre</h2>
+               <p>
+                  Boa comunicação, inglês básico, experiência com trabalho em equipes, facilidade e disposição 
+                  para novos aprendizados dentro e fora da empresa. Conhecimentos nas linguagens de Programação C#, 
+                  VB.Net, C, Lua, Python. Conhecimentos em modelagem e consulta em banco de dados, Padrões de projeto, 
+                  programação orientada a objeto, HTML 5, CSS 3, SQL, pacote Microsoft Office, montagem e 
+                  manutenção de redes. Experiência com bancos de dados MySQL e MS SQL Server.
+               </p>
+            </div>
          </div>
+
+         
+         
       
       </div>
       <br><br>
@@ -76,59 +170,92 @@
           • Dados profissionais
           • Escolaridade -->
       <hr>
-      <h2 id="DadosPessoais">Dados pessoais</h2>
-      <p>
-         <p>Indaiatuba, São Paulo, Brasil.</p>
-         <p>Analista Desenvolvedor .NET Full Stack Pleno.</p>
-         
-      </p>
-
-      <h2 id="Contato"></h2>
-      <section>
-         <p>
-            E-mail:<a href="mailto:caio.barretta@aluno.ifsp.edu.br">caio.barretta@aluno.ifsp.edu.br</a>
-            <br>
-            <a href="https://www.linkedin.com/in/caio-augusto-barretta/">Linkedin</a>
-            <br>
-            <a href="https://www.facebook.com/caioaugusto.barretta.9">Facebook</a>
-            <br>
-            <a href="https://twitter.com/caio_barretta">Twitter</a>
-            <br>
-            <a href="https://www.instagram.com/barrettacaioaugusto/">Instagram</a>
-         </p>
-      </section>
-
+      <div class="personal">
+         <div class="personal-data">
+            <h2 id="personal-data-section">Dados pessoais</h2>
+            <div class="personal-data-section-content">
+               <p>Indaiatuba, São Paulo, Brasil.</p>
+               <p>Analista Desenvolvedor .NET Full Stack Pleno.</p>
+            </div>
+         </div>
+         <div class="personal-contact">
+            <h2 id="Contato">Contato</h2>
+            <section>
+               <div class="social-media">
+                  <img class="icon-social-media" src="img/github.svg"> 
+                  <div>
+                     <a href="https://github.com/caiobarretta">Github</a>
+                  </div>
+               </div>
+               <div class="social-media">
+                  <img class="icon-social-media" src="img/gmail.svg"> 
+                  <div>
+                     <a>caio.barretta@aluno.ifsp.edu.br</a>
+                  </div>
+               </div>
+               <div class="social-media">
+                  <img class="icon-social-media" src="img/linkedin.svg"> 
+                  <div>
+                     <a href="https://www.linkedin.com/in/caio-augusto-barretta/">Linkedin</a>
+                  </div>
+               </div>
+               <div class="social-media">
+                  <img class="icon-social-media" src="img/facebook.svg">
+                  <div>
+                     <a href="https://www.facebook.com/caioaugusto.barretta.9">Facebook</a>
+                  </div>
+               </div>
+               <div class="social-media">
+                  <img class="icon-social-media" src="img/twitter.svg">
+                  <div>
+                     <a href="https://twitter.com/caio_barretta">Twitter</a>
+                  </div>
+               </div>
+               <div class="social-media">
+                  <img class="icon-social-media" src="img/instagram.svg">
+                  <div>
+                     <a href="https://www.instagram.com/barrettacaioaugusto/">Instagram</a>
+                  </div>
+               </div>
+            </section>
+         </div>
+      </div>
       <!--Dados profissionais e dados acadêmicos devem ser feitos utilizando listas em html. -->
       <hr>
-      <h2 id="DadosPorfissionais">Dados Profissionais:</h2>
-      <p>
-         <ul>
-            <li>Analista Desenvolvedor .NET Full Stack Pleno: ONLINE APPLICATIONS</li>
-            <li>Analista Desenvolvedor .NET Júnior: Iterative</li>
-            <li>Programador júnior: Total Acesso</li>
-            <li>Programador:Compania Nacional de Sistemas</li>
-            <li>Assistente Técnico (informática), Supervisor de campo (informática): G.A.E Serviços de Estacionamento e bilhetes S.A]</li>
-            <li>Técnico em eletroeletrônica: Zetks consultoria e sistemas LTDA</li>
-         </ul>
-      </p>
-
+      <div class="professional">
+         <h2 id="professional-experience">Dados Profissionais:</h2>
+         <div class="professional-experience-content">
+            <ul>
+               <li>Analista Desenvolvedor .NET Full Stack Pleno: Out Off the Box</li>
+               <li>Analista Desenvolvedor .NET Full Stack Pleno: Online Applications</li>
+               <li>Analista Desenvolvedor .NET Júnior: Iterative</li>
+               <li>Programador júnior: Total Acesso</li>
+               <li>Programador: Compania Nacional de Sistemas</li>
+               <li>Assistente Técnico (informática), Supervisor de campo (informática): G.A.E Serviços de Estacionamento e bilhetes S.A</li>
+               <li>Técnico em eletroeletrônica: Zetks consultoria e sistemas LTDA</li>
+            </ul>
+         </div>
+      </div>
+      <br><br>
       <hr>
-      <h2 id="Escolaridade">Escolaridade:</h2>
-      <p>
-         <ul>
-            <li>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP</li>
-         </ul>
-      </p>
-
+      <div class="education">
+         <h2 id="education-title">Escolaridade:</h2>
+         <p>
+            <ul>
+               <li>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP</li>
+            </ul>
+         </p>
+      </div>
+      <br><br>
       <footer>
          <br><br>
          <p>Direito de cópia &copy; <script>document.write(new Date().getFullYear())</script> 
          Caio Augusto Todos os direitos Reservados</p>
          <br><br>
          <nav>
-            <a href="#DadosPessoais">Dados pessoais</a>
-            <a href="#DadosPorfissionais" >Dados profissionais</a>
-            <a href="#Escolaridade">Escolaridade</a>
+            <a href="#personal-data-section">Dados pessoais</a>
+            <a href="#professional-experience" >Dados profissionais</a>
+            <a href="#education-title">Escolaridade</a>
          </nav>
          <br><br>
       </footer>
