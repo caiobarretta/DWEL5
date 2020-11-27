@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>Cadastro de interesse</title>
-      <meta charset="UTF-8">
-      <style>
-         
-      </style>
-   </head>
-   <body>
-      
-   </body>
+<head>
+   <title>Cadastro de interesse</title>
+   <meta charset="UTF-8">
+   <style>
+
+   </style>
+</head>
+
+<body>
+   <!-- Faça uma página web para o cadastro de alunos interessados em cursos de um escola. Os dados a serem coletados são: -->
+   <h1>Cadastro de interesse em cursos</h1>
+   <br>
+   <hr>
+   <br>
+   <form action="" method="POST">
+      <!--• Nome.-->
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Entre com seu nome"><br><br>
+      <!--• Endereço. O campo cidade deve ser um combo com todas as cidades da região metropolitana de Campinas. -->
+      <label for="cidades">Endereço:</label>
+      <select id="cidades" name="cidades">
+         <option value="Americana">Americana</option>
+         <option value="Artur Nogueira">Artur Nogueira</option>
+         <option value="Campinas">Campinas</option>
+         <option value="Cosmópolis">Cosmópolis</option>
+         <option value="Engenheiro Coelho">Engenheiro Coelho</option>
+         <option value="Holambra">Holambra</option>
+         <option value="Hortolândia">Hortolândia</option>
+         <option value="Indaiatuba">Indaiatuba</option>
+         <option value="Itatiba">Itatiba</option>
+         <option value="Jaguariúna">Jaguariúna</option>
+         <option value="Monte Mor">Monte Mor</option>
+         <option value="Morungaba">Morungaba</option>
+         <option value="Nova Odessa">Nova Odessa</option>
+         <option value="Paulínia">Paulínia</option>
+         <option value="Pedreira">Pedreira</option>
+         <option value="Santa Bárbara d'Oeste">Santa Bárbara d'Oeste</option>
+         <option value="Santo Antônio de Posse">Santo Antônio de Posse</option>
+         <option value="Sumaré">Sumaré</option>
+         <option value="Vinhedo">Vinhedo</option>
+         <option value="Valinhos">Valinhos</option>
+      </select><br><br>
+      <!--• Sexo: Deve ser radio button.-->
+      <label for="sexo-masculino">Sexo:</label>
+      <input type="radio" id="sexo-masculino" name="sexo">Masculino
+      <input type="radio" id="sexo-feminino" name="sexo">Feminino
+      <br><br>
+      <!--• Data de nascimento.-->
+      <label for="data-nascimento">Data de nascimento:</label>
+      <input id="data-nascimento" name="data" type="date"><br><br>
+      <!--• E-mail.-->
+      <label for="email">E-mail:</label>
+      <input type="text" id="email" name="email" placeholder="Entre com seu e-mail"><br><br>
+      <!--• Cursos de interesses-->
+      <!--◦ Devem existir 4 cursos: Análise e Desenvolvimento de Sistemas, Técnico em Informática, Técnico em eletrônica e Pedagogia.-->
+      <!--◦ O usuário pode escolher mais de uma opção. -->
+      <label for="curso1">Cursos de interesse:</label><br>
+      <input type="checkbox" id="curso1" name="curso1" value="Análise e Desenvolvimento de Sistemas">Análise e
+      Desenvolvimento de Sistemas<br>
+      <input type="checkbox" id="curso2" name="curso2" value="Técnico em Informática">Técnico em Informática<br>
+      <input type="checkbox" id="curso3" name="curso3" value="Técnico em eletrônica">Técnico em eletrônica<br>
+      <input type="checkbox" id="curso4" name="curso4" value="Pedagogia">Pedagogia.<br>
+      <br><br>
+      <!--Deve existir uma opção na página para o aluno carregar o seu histórico escolar.-->
+      <label for="file-upload-historico-escolar">Faça upload do seu histórico escolar:</label><br>
+      <input type="file" id="file-upload-historico-escolar" name="fileupload">
+   </form>
+   <br>
+   <hr>
+</body>
 </html>
