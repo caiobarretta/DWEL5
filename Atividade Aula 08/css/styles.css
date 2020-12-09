@@ -1,0 +1,42 @@
+#conteudo{
+   width: fit-content;
+   height: fit-content;
+   background-color: #778899;
+   color: white;
+   margin: auto;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 20px;
+   text-align: center;
+   font-family: sans-serif, monospace;
+}
+
+#Conhecimento{
+   width: fit-content;
+   height: fit-content;
+   text-align: left;
+   border: solid 1px red;
+   border-radius: 5px;
+   background-color: white;
+   color: black;
+   font-size: 15px;
+   margin: auto;
+}
+
+#Conhecimento ul{
+   margin-right: 50px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+#vaga{
+   font-size: 30px;
+}
+
+#salario, #pre-requisitos{
+   font-size: 20px;
+}
+
+#email{
+   font-size: 13px;
+}

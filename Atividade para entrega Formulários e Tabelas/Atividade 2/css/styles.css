@@ -1,0 +1,118 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+ }
+ 
+
+ a {
+    font-size: medium;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: inherit;
+ }
+
+ a:visited, a:active {
+    color: inherit;
+ }
+
+ a:hover{
+    background-color: lightgray;
+ }
+
+ .title{
+    text-align: center;
+    color: dimgray;
+ }
+
+ .image-profile{
+    display: inline-block;
+    width: 200px;
+ }
+               
+ .image-profile img{
+    width: 200px;
+ }
+
+ .profile{
+    display: flex;
+ }
+
+ #menu nav ul{
+    padding-left: 0px;
+ }
+ 
+ #menu nav ul li{
+    display: inline-table;
+ }
+
+ .about-content, .personal-data, .personal-contact, .professional, .education{
+    border: floralwhite ridge 1px;
+    background-color: rgb(255, 255, 245);
+ }
+
+ .about-content{
+    padding: 5px 0px;
+ }
+
+ .about-content h2{
+    padding: 5px 0px;
+ }
+
+ .about-content p{
+    line-height: 2;
+ }
+
+ div, h1, h2, p{
+    margin: 10px;
+ }
+ .personal{
+    display: inline-flex;
+ }
+
+ .personal-data{
+    width: 30%;
+ }
+
+ .personal-data-section-content{
+    padding: 5px 0px 5px 0px;
+ }
+ .personal-data-section-content p{
+    padding: 10px;
+ }
+
+ .personal-contact{
+    width: 70%;
+ }
+
+
+ .icon-social-media{
+    width: 32px;
+    height: 32px;
+ }
+
+ .social-media{
+    display: inline-flex;
+    width: 30%;
+ }
+
+ .social-media img{
+    display: inline-flex;
+ }
+
+ .social-media div{
+    display: inline-block;
+    margin-top: 5px;
+    color: black;
+ }
+
+ body ul li{
+    padding: 5px;
+ }
+
+ footer{
+    background-color: lightgray;
+ }
+
+ footer a:hover{
+    background-color: whitesmoke;
+ }

@@ -1,0 +1,22 @@
+.campo-obrigatorio{
+    color:red;
+}
+
+input, textarea, select{
+    width: 30%;
+    float: right;
+    margin-right: 50%;
+    font-family: monospace;
+}
+
+label{
+    font-family: monospace;
+    margin-left: 20px;
+}
+form{
+    background-color: lightgray;
+ }
+
+ #enviar{
+     margin-top: 5px;
+ }
