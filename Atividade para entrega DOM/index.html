@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Página Pessoal </title>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+   <h1 class="title">Orçamento</h1>
+
+   <!--<form  action="" method="POST">-->
+   <br>
+   <div>
+      <label for="descricao">Descrição:<span class="campo-obrigatorio">*</span></label>
+      <textarea id="descricao" name="descricao" rows="5" required></textarea>
+   </div>
+   <br><br>
+   <div>
+      <label for="valor">Valor:<span class="campo-obrigatorio">*</span></label>
+      <input type="text" id="valor" name="valor" placeholder="Entre com um valor" required>
+   </div>
+   <br><br>
+   <div>
+      <label for="tipo-orcamento">Tipo Orçamento:</label>
+      <select id="tipo-orcamento" name="tipo-orcamento" required>
+         <option value="saida">Saída</option>
+         <option value="entrada">Entrada</option>
+      </select>
+   </div>
+   <br><br>
+   <input type="submit" id="salvar" name="salvar" value="Salvar" onclick="salvaOrcamento()">
+   <br><br>
+   <p class="campo-obrigatorio">
+      *(Obrigatório)
+   </p>
+   <br>
+   <!--</form>-->
+
+   <div class="tabela-financeira">
+      <h2 id="tabela-financeira-title">Saídas e Entradas:</h2>
+      <table id="tabela-financeira-table">
+         <tr>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Tipo</th>
+            <th>Ação</th>
+         </tr>
+      </table>
+      <div class="total">
+         <div>
+            <span class="total-saida">Total de Saídas:</span>
+            <label class="total-saida" id="total-saida">0</label><br>
+         </div>
+         <div>
+            <span class="total-entrada">Total de Entradas:</span>
+            <label class="total-entrada" id="total-entrada">0</label><br>
+         </div>
+         <div>
+            <b>
+               <span>Total Orçamento:</span>
+               <label id="total-orcamento">0</label>
+            </b><br>
+         </div>
+      </div>
+   </div>
+   <br><br>
+   <footer>
+      <br><br>
+      <p>Direito de cópia &copy;
+         <script>document.write(new Date().getFullYear())</script>
+         Caio Augusto Todos os direitos Reservados
+      </p>
+      <br><br>
+   </footer>
+   <script type="text/javascript" src="js/script.js">
+
+   </script>
+</body>
+
+</html>

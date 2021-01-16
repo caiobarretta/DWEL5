@@ -1,0 +1,91 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+ }
+ 
+
+ a {
+    font-size: medium;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: inherit;
+ }
+
+ a:visited, a:active {
+    color: inherit;
+ }
+
+ a:hover{
+    background-color: lightgray;
+ }
+
+ .title{
+    text-align: center;
+    color: dimgray;
+ }
+
+ .tabela-financeira{
+    border: floralwhite ridge 1px;
+    background-color: rgb(255, 255, 245);
+ }
+
+ 
+ div, h1, h2, p{
+    margin: 10px;
+ }
+ 
+ body ul li{
+    padding: 5px;
+ }
+
+ footer{
+    background-color: lightgray;
+ }
+
+ footer a:hover{
+    background-color: whitesmoke;
+ }
+
+ .tabela-financeira table, .tabela-financeira tr, .tabela-financeira th, .tabela-financeira td{
+   border: darkgray solid 1px;
+ }
+
+ .campo-obrigatorio{
+   color:red;
+}
+
+input, textarea, select{
+   width: 30%;
+   float: right;
+   margin-right: 50%;
+   font-family: monospace;
+}
+
+label{
+   font-family: monospace;
+   margin-left: 20px;
+}
+form{
+   background-color: lightgray;
+}
+
+#salvar{
+    margin-top: 5px;
+}
+
+
+.total-saida{
+   color: red;
+}
+
+.total-entrada{
+   color: green;
+}
+
+#total-saida, #total-entrada, #total-orcamento{
+   float: right;
+}
+
+.total{
+   width: 20%;
+}

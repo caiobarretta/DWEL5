@@ -1,0 +1,104 @@
+{
+    "bares": [
+        {
+            "id": 1,
+            "nome": "Kitnet Bar",
+            "descricao": "Casa noturna da cena alternativa apresenta pocket shows vocais e acústicos, com pegada emo dark e temática.",
+            "endereco": "Av. Francisco José de Camargo Andrade, 145 - Jardim Chapadão, Campinas - SP, 13070-143",
+            "insta": "https://www.instagram.com/kitnetbar",
+            "fb": "https://www.facebook.com/kitnetbar",
+            "lat": -22.88770065271771,
+            "long": -47.076896176717746
+        },
+        {
+            "id": 2,
+            "nome": "Livre Club Bar",
+            "descricao": "Casa noturna com música eletrônica, discotecagem mix, pista de dança, bar, e predominância de público LGBT.",
+            "endereco": "Av. Francisco Glicério, 2165 - Vila Itapura, Campinas - SP, 13023-101",
+            "insta": "https://www.instagram.com/livrebar",
+            "fb": "https://www.facebook.com/livreclubar/",
+            "lat": -22.896352453664974,
+            "long": -47.06544946137421
+        },
+        {
+            "id": 3,
+            "nome": "Club 88",
+            "lat": -22.902696602990318,
+            "long": -47.059371716949975,
+            "descricao": "Noites agitadas com drinques, DJs e os sons da música eletrônica, em espaço charmoso de edifício histórico.",
+            "endereco": "Av. Dr. Thomaz Alves, 39 - Centro, Campinas - SP, 13010-170",
+            "insta": "https://www.instagram.com/club88oficial",
+            "fb": "https://www.facebook.com/club88oficial/"
+        },
+        {
+            "id": 4,
+            "nome": "Up Music Bar",
+            "descricao": "Bar com música ao vivo",
+            "lat": -22.89216860207143,
+            "long": -47.07500848465645,
+            "fb": "https://pt-br.facebook.com/UpMusicBar",
+            "endereco": "Av. Andrade Neves, 1890 - Castelo, Campinas - SP, 13070-000",
+            "insta": ""
+        },
+        {
+            "id": 5,
+            "nome": "Gus Bar",
+            "lat": -22.90293729588766,
+            "long": -47.0552479613742,
+            "descricao": "Boteco simples e descontraído com mesas em terraço coberto serve cervejas populares e porções tradicionais.",
+            "endereco": "Galeira Conceição Plaza, Sala 9, R. Conceição, 480 - Centro, Campinas - SP, 13050-010",
+            "fb": "https://pt-br.facebook.com/GUSbarCampinas/",
+            "insta": "https://www.instagram.com/gusclubroma/"
+        },
+        {
+            "id": 6,
+            "nome": "SubWay Club",
+            "lat": -22.90285862308045,
+            "long": -47.049781761374206,
+            "descricao": "Casa noturna com MPB ao vivo e pista de dança também tem um espaço lounge, jardins e shows de drag queens.",
+            "endereco": "R. Maria Monteiro, 30 - Cambuí, Campinas - SP, 13025-150",
+            "fb": "https://www.facebook.com/ClubSubwayCampinas",
+            "insta": "https://www.instagram.com/clubsubwayoficial/"
+        },
+        {
+            "id": 7,
+            "nome": "Red Lion Pub",
+            "lat": -22.896869790634355,
+            "long": -47.057619200000005,
+            "descricao": "Bar de estilo pub com chope e cervejas nacionais e importadas, porções fartas e rock, em atmosfera intimista.",
+            "endereco": "R. Dr. Guilherme da Silva, 102 - Cambuí, Campinas - SP, 13025-070",
+            "fb": "https://pt-br.facebook.com/pages/category/Dance---Night-Club/Red-Lion-Pub-Oficial-193518274077406/",
+            "insta": ""
+        },
+        {
+            "id": 8,
+            "nome": "Bar do André",
+            "lat": -22.911630380995827,
+            "long": -47.06237323068711,
+            "endereco": "R. Dr. Sales de Oliveira, 201 - Vila Industrial (Campinas), Campinas - SP, 13035-270",
+            "fb": "https://www.facebook.com/botecodoandreoficial/",
+            "insta": "https://www.instagram.com/botecodoandre/"
+        },
+        {
+            "id": 9,
+            "nome": "Nosso Bar",
+            "lat": -22.904668650267087,
+            "long": -47.058151084656444,
+            "descricao": "Boteco charmoso de banquetas no balcão e mais de 180 tipos de cerveja, servindo também pratos e sanduíches.",
+            "endereco": "Rua Barão de Jaguara, 988 - Box 2 - Centro, Campinas - SP, 13010-040",
+            "fb": "https://pt-br.facebook.com/pages/category/Beer-Garden/Nosso-bar-355412934631642/",
+            "insta": "https://www.instagram.com/nossobarmcz/"
+        },
+        {
+            "id": 10,
+            "nome": "Moustache Single's Bar",
+            "lat": -22.894924144508025,
+            "long": -47.0574145,
+            "descricao": "Bar",
+            "endereco": "R. Irmãos Bierrembach, 127 - Cambuí, Campinas - SP, 13024-150",
+            "fb": "https://m.facebook.com/MoustacheSinglesBar/?locale2=pt_BR",
+            "insta":"https://www.instagram.com/explore/locations/429605335/brazil/campinas-sao-paulo/moustache-singles-bar/"
+            
+        }
+    ]
+}

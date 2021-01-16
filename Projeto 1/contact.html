@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contato </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <h1 class="title">Entre em contato</h1>
+    <div class="profile">
+
+        <div class="image-profile">
+            <img src="img/perfil.jpg" alt="Minha Imagem de Perfil">
+        </div>
+
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Sobre o projeto</a></li>
+                    <li><a href="authors.html">Autores</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <br><br>
+    <hr>
+    <form action="" method="POST">
+        <br>
+        <!--Solicite os seguintes dados-->
+        <!--• Nome – Obrigatório.-->
+        <div>
+            <label for="nome">Nome:<span class="campo-obrigatorio">*</span></label>
+            <input type="text" id="nome" name="nome" placeholder="Entre com seu nome" required>
+        </div>
+        <!--• Fone – Obrigatório. -->
+        <div>
+            <label for="phone">Fone:<span class="campo-obrigatorio">*</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="Entre com seu telefone celular" required>
+        </div>
+        <!--• E-mail – Obrigatório.-->
+        <div>
+            <label for="email">Email:<span class="campo-obrigatorio">*</span></label>
+            <input type="email" id="email" name="email" placeholder="Entre com seu e-mail" required>
+        </div>
+        <!--• Motivo do contato. (Em motivo do contato faça uma pré-seleção das possibilidades 
+            e exiba para o usuário clicar sobre)-->
+        <div>
+            <label for="motivo-contato">Motivo do contato:</label>
+            <select id="motivo-contato" name="motivo-contato" required>
+                <option value="Contratacao">Sobre o projeto</option>
+                <option value="free">Contribuições</option>
+                <option value="outros">Outros</option>
+            </select>
+        </div>
+        <!--• Comentários gerais-->
+        <div>
+            <label for="comentarios-gerais">Comentários Gerais:</label><br>
+            <textarea id="comentarios-gerais" name="comentarios-gerais" rows="5"></textarea>
+        </div>
+        <br>
+        <input type="submit" id="enviar" name="enviar" value="Enviar">
+        <br><br>
+        <p class="campo-obrigatorio">
+            *(Obrigatório)
+        </p>
+        <br>
+    </form>
+    <br><br>
+    <footer>
+        <br><br>
+        <p>Direito de cópia &copy;
+            <script>document.write(new Date().getFullYear())</script>
+            Apache License 2.0</p>
+        <br><br>
+        <nav>
+            <ul>
+                <a href="https://www.apache.org/licenses/LICENSE-2.0">Sobre a licença</a>
+                <a href="about.html">Sobre o projeto</a>
+                <a href="authors.html">Autores</a>
+                <a href="contact.html">Contato</a>
+            </ul>
+        </nav>
+        <br><br>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Bares e Pubs de Campinas</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin="" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   
+</head>
+
+<body>
+   <h1 class="title">Bares e Pubs de Campinas</h1>
+   <div class="profile">
+
+      <div class="image-profile">
+         <img src="img/perfil.jpg" alt="Minha Imagem de Perfil">
+      </div>
+      <div id="content">
+         <div id="content-topo">
+            <div id="menu">
+               <nav>
+                  <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="about.html">Sobre o projeto</a></li>
+                     <li><a href="authors.html">Autores</a></li>
+                     <li><a href="contact.html">Contato</a></li>
+                  </ul>
+               </nav>
+            </div>
+            <div id="search-map">
+               <input id="search-map-input" type="text">
+               <select id="search-map-select">
+                <option value="nome">Nome</option>
+                <option value="endereco">Endereço (rua, bairro, cidade)</option>
+                <option value="descricao">Descrição</option>
+               </select>
+               <input id="search-map-submit" type="submit" value="Pesquisar" onclick="SearchMap()">
+            </div>
+         </div>
+         <p>
+            Clique em qualquer marcador do mapa para ver mais informações sobre o local, como:
+            Descrição, Endereço, Facebook, Instagram e favoritar.
+         </p>
+         <div id="mapid"></div>
+         <div id="spotlight">
+            <h2>Destaques</h2>
+            <img id="spotlight-img-1" alt="destaque 1" src="img/perfil.jpg">
+            <img id="spotlight-img-2" alt="destaque 2" src="img/perfil.jpg">
+            <img id="spotlight-img-3" alt="destaque 3" src="img/perfil.jpg">
+         </div>
+         <div id="favorites">
+            <h3>Favoritos</h3>
+            <div id="favorites-img">
+            </div>
+         </div>
+      </div>
+   </div>
+   <hr>
+
+   <br><br>
+   <footer>
+      <br><br>
+      <p>Direito de cópia &copy;
+         <script>document.write(new Date().getFullYear())</script>
+         Apache License 2.0
+      </p>
+      <br><br>
+      <nav>
+         <ul>
+            <a href="https://www.apache.org/licenses/LICENSE-2.0">Sobre a licença</a>
+            <a href="about.html">Sobre o projeto</a>
+            <a href="authors.html">Autores</a>
+            <a href="contact.html">Contato</a>
+         </ul>
+      </nav>
+      <br><br>
+   </footer>
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin="">
+   </script>
+   <script type="text/javascript" src="js/map.js"></script>
+</body>
+
+</html>

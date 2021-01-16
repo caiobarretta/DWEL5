@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Array</title>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+   <h1 class="title">Array</h1>
+
+   <br>
+   <div>
+      <label for="inclui-animal-inicio">Inclui animal no início:</label><br>
+      <input id="inclui-animal-inicio" name="inclui-animal-inicio">
+      <input type="submit" value="Submit" onclick="incluiAnimalInicio()">
+   </div>
+   <hr>
+   <div>
+      <label for="inclui-animal-fim">Inclui animal no fim:</label><br>
+      <input type="text" id="inclui-animal-fim" name="inclui-animal-fim">
+      <input type="submit" value="Submit" onclick="incluiAnimalFim()">
+   </div>
+   <hr>
+   <div>
+      <label for="remove-animal-inicio">Remove animal no início</label><br>
+      <input type="submit" value="Submit" onclick="removeAnimalInicio()">
+   </div>
+   <hr>
+   <div>
+      <label for="remove-animal-fim">Remove animal no fim</label><br>
+      <input type="submit" value="Submit"  onclick="removeAnimalFim()">
+   </div>
+   <hr>
+   <div>
+      <input type="submit" value="Exibe Animal Aleatório" onclick="exibeAnimalAleatorio()">
+   </div>
+   <hr>
+   <p id="lista-animais">
+      Lista de animais vazia.
+   </p>
+   <script type="text/javascript" src="js/vetor.js">
+
+   </script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Avaliação P1 </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1 class="title">Eleição de vereadores e vereadoras</h1>
+    <br>
+    <hr>
+    <br>
+    <!-- Número de eleitores do município.-->
+    <div>
+        <label for="numero-eleitores-municipio">Número de eleitores do município:<span
+                class="campo-obrigatorio">*</span></label>
+        <input type="text" id="numero-eleitores-municipio" name="numero-eleitores-municipio"
+            placeholder="Entre número de eleitores do município" required>
+    </div>
+    <br>
+    <!--   Número de cadeiras que existem na câmara da cidade. -->
+    <div>
+        <label for="numero-cadeiras-existem-camara-cidade">Número de cadeiras que existem na câmara da cidade:<span
+                class="campo-obrigatorio">*</span></label>
+        <input type="text" id="numero-cadeiras-existem-camara-cidade" name="numero-cadeiras-existem-camara-cidade"
+            placeholder="Entre número de cadeiras que existem na câmara da cidade" required>
+    </div>
+    <br>
+    <!--  Número de abstenções.-->
+    <div>
+        <label for="numero-abstencoes">Número de abstenções:<span class="campo-obrigatorio">*</span></label>
+        <input type="text" id="numero-abstencoes" name="numero-abstencoes" placeholder="Entre número de abstenções"
+            required>
+    </div>
+    <br>
+    <!--  Número de votos em branco.-->
+    <div>
+        <label for="numero-votos-branco">Número de votos em branco:<span class="campo-obrigatorio">*</span></label>
+        <input type="text" id="numero-votos-branco" name="numero-votos-branco"
+            placeholder="Entre número de votos em branco" required>
+    </div>
+    <br>
+    <!--  Número de votos nulos.-->
+    <div>
+        <label for="numero-votos-nulos">Número de votos nulos:<span class="campo-obrigatorio">*</span></label>
+        <input type="text" id="numero-votos-nulos" name="numero-votos-nulos" placeholder="Entre número de votos nulos"
+            required>
+    </div>
+    <br>
+    <!--  Número de votos que o partido recebeu.-->
+    <div>
+        <label for="numero-votos-partido-recebeu">Número de votos que o partido recebeu:<span
+                class="campo-obrigatorio">*</span></label>
+        <input type="text" id="numero-votos-partido-recebeu" name="numero-votos-partido-recebeu"
+            placeholder="Entre número de votos que o partido recebeu" required>
+    </div>
+    <br>
+    <!--  Nome do partido.-->
+    <div>
+        <label for="nome-partido">Nome do partido:<span class="campo-obrigatorio">*</span></label>
+        <input type="text" id="nome-partido" name="nome-partido" placeholder="Entre com o nome do partido" required>
+    </div>
+    <br>
+    <input type="submit" id="calc" name="calc" value="Calcular" onclick="processaVotacao()">
+    <br><br>
+    <p class="campo-obrigatorio">
+        *(Obrigatório)
+    </p>
+    <br>
+    <hr>
+    <div>
+        <label for="numero-de-eleitos">Número de eleitos:</label>
+        <input id="numero-de-eleitos" name="numero-de-eleitos" value="" disabled>
+    </div>
+    <script type="text/javascript" src="script/script.js">
+
+    </script>
+</body>
+
+</html>
